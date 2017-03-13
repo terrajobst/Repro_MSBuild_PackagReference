@@ -6,7 +6,12 @@ namespace ClassLibrary
     {
         public override string ToString()
         {
-            return JToken.Parse("123").ToString();
+            return Create().ToString();
+        }
+
+        public static JToken Create()
+        {
+            return JToken.Parse("123");
         }
     }
 }

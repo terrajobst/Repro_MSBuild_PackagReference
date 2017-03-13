@@ -95,6 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.1-beta1" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
       <Project>{5F9BC0B3-FBE7-4EDD-AC53-23B7CCDD2B21}</Project>
       <Name>ClassLibrary</Name>
