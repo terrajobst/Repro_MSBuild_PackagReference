@@ -12,7 +12,8 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var text = new Class1().ToString();
+            var token = Class1.Create();
+            var text = token.ToString();
             MessageBox.Show(text);
         }
     }
